@@ -42,7 +42,9 @@ locals {
     "westus"             = "wus",
     "westus2"            = "wus2",
     "westus3"            = "wus3",
-	}
+  }
 
   region_short_name = var.region == null ? "" : local.regions[var.region]
+
+  region_short_name_map = local.regions
 }

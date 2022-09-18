@@ -43,6 +43,7 @@ Functional examples are included in the
 | Name | Description |
 |------|-------------|
 | region\_short\_name | The three to four character shortname of the region specified in var.region. |
+| region\_short\_name\_map | The three to four character shortname of any given region. |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 

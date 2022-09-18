@@ -12,6 +12,7 @@ No input.
 | Name | Description |
 |------|-------------|
 | region\_short\_name | The three or four character shortname of a given region. |
+| region\_short\_name\_map | The three or four character shortname of any given region. |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
