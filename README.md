@@ -16,7 +16,7 @@ module "utils" {
 }
 
 locals {
-  "eus2" = module.utils.region_short_name
+  "eastus2" = module.utils.region_short_name
 }
 ```
 
@@ -24,7 +24,7 @@ The above results in locals with computed values of:
 
 ```
 locals {
-  "eastus2"    = "eus2"
+  "eastus2" = "eus2"
 }
 ```
 
